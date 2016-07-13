@@ -3,7 +3,7 @@
 环境的配置工作
 
 
-##install
+##install command 
 
  
 
