@@ -20,14 +20,12 @@
 
 3 重新运行命令react-native run-android 遇到如下问题<br/>
 ![update sdk](http://thumbnail0.baidupcs.com/thumbnail/4ef238f815c0530e1695f089d3baf6f2?fid=2299077220-250528-636143448131596&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-T2vtOBXFhoXax%2ftYY3qsIVcljlY%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510325800655642832&dp-callid=0&size=c1920_u1080&quality=90)<br/><br/>
-需更新sdk，如图
+需更新sdk，如图<br/>
 ![update](http://thumbnail0.baidupcs.com/thumbnail/c0f66cea2b4a157b9c0720fac4e43c47?fid=2299077220-250528-1046417304802961&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Q6NjxsMx4LzsWljL0MJR2ZQVL8A%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510758372676656737&dp-callid=0&size=c1920_u1080&quality=90)<br/>
 
 4 重新运行命令react-native run-android 遇到如下问题<br/>
 ![not find ](http://thumbnail0.baidupcs.com/thumbnail/4b29f291baa4abb065786056e3ec5e8d?fid=2299077220-250528-3887062478496&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zSAqeojCv4tULd6gLOp1rEfl4Rs%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510758372676656737&dp-callid=0&size=c1920_u1080&quality=90)<br/>
-找不到 tools.jar (链接地址)
-
-需在系统变量中添加classpath 指向jdk下的tools.jar,然后重启下电脑.可参照([demo](http://bbs.reactnative.cn/topic/95/solved-react-native-run-android%E6%97%B6%E6%8A%A5%E9%94%99-could-not-find-tools-jar/2))<br/>
+找不到 tools.jar  需在系统变量中添加classpath指向jdk下的tools.jar,然后重启下电脑.可参照([demo](http://bbs.reactnative.cn/topic/95/solved-react-native-run-android%E6%97%B6%E6%8A%A5%E9%94%99-could-not-find-tools-jar/2))<br/>
 
 ##install command 
  
