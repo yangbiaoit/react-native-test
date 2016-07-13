@@ -11,7 +11,7 @@
 ![gradle-faild](http://thumbnail0.baidupcs.com/thumbnail/8a80e98c926d4151f20fa8e45bc1fcff?fid=2299077220-250528-1059835242846841&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-gv58ITv2Blf6BF9HghjsAJhIjak%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510325800655642832&dp-callid=0&size=c1920_u1080&quality=90)<br/><br/>
 
 解决方案：下载gradle离线包，安装找到gradle-2.4-all.zip后下载等待完成。然后将zip包放进如下路径的乱码文件夹子目录中，子目录<br/><br/>
-![gradle-install](http://thumbnail0.baidupcs.com/thumbnail/06cd51e23bb1fd3ec8ccb93e8bafb3f9?fid=2299077220-250528-821342747375584&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-2D%2bHvIRwiRcCQ1eKrSfzzBBIdoo%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510325800655642832&dp-callid=0&size=c1920_u1080&quality=90)<br/><br/>
+![gradle-install](http://thumbnail0.baidupcs.com/thumbnail/b49d85c0d722d8ccd40aaeca87779b6c?fid=2299077220-250528-550917057282082&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-vJQRTkbDjPPyZnYkr5TvJcenvd4%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510874116090986393&dp-callid=0&size=c1920_u1080&quality=90)<br/><br/>
 
 2 然后重新运行命令react-native run-android 又遇到如下问题<br/>
 ![environment variable](http://thumbnail0.baidupcs.com/thumbnail/f340549ffca9bd74e5028ee030a37c20?fid=2299077220-250528-1026933355060702&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-5qsLMA%2fR2p1zuC7qmH2wmhpPkCg%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510325800655642832&dp-callid=0&size=c1920_u1080&quality=100)<br/><br/>
