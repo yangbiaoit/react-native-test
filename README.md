@@ -1,5 +1,7 @@
-##Pre
+### 安装react-native
+ [install](http://facebook.github.io/react-native/docs/getting-started.html#testing-your-react-native-installation)
 
+## windows下的环境配置
 [环境的配置工作](http://blog.csdn.net/u013278099/article/details/51451889)
 
 ### 遇到的一些问题
@@ -27,10 +29,9 @@
 ![not find ](http://thumbnail0.baidupcs.com/thumbnail/4b29f291baa4abb065786056e3ec5e8d?fid=2299077220-250528-3887062478496&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zSAqeojCv4tULd6gLOp1rEfl4Rs%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510758372676656737&dp-callid=0&size=c1920_u1080&quality=90)<br/>
 找不到 tools.jar  需在系统变量中添加classpath指向jdk下的tools.jar,然后重启下电脑.可参照([demo](http://bbs.reactnative.cn/topic/95/solved-react-native-run-android%E6%97%B6%E6%8A%A5%E9%94%99-could-not-find-tools-jar/2))<br/>
 
-##install command 
- 
- [install](http://facebook.github.io/react-native/docs/getting-started.html#testing-your-react-native-installation)
-
+5 成功的界面<br/>
+  ![success](http://thumbnail0.baidupcs.com/thumbnail/b8702ff4b68277516332333c17b33fa2?fid=2299077220-250528-429763928287431&time=1468378800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ig67MG5RG8mLeKYpUPWjhsJx8S4%3d&expires=8h&chkbd=0&chkv=0&dp-logid=4510965750494370419&dp-callid=0&size=c1920_u1080&quality=90)
+  
  
  
 
