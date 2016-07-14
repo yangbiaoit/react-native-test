@@ -9,44 +9,65 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Animated,
+  TouchableOpacity,
+  LayoutAnimation
 } from 'react-native';
 
-class Helloworld extends Component {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { w: 100, h: 100 };
+    this._onPress = this._onPress.bind(this);
+  }
+
+  componentWillMount() {
+    // Animate creation
+    LayoutAnimation.spring();
+  }
+
+  _onPress() {
+    // Animate the update
+    LayoutAnimation.spring();
+    this.setState({w: this.state.w + 15, h: this.state.h + 15})
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
-        </Text>
+        <View style={[styles.box, {width: this.state.w, height: this.state.h}]} />
+        <TouchableOpacity onPress={this._onPress}>
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>Press me!</Text>
+          </View>
+        </TouchableOpacity>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
+
+var styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  box: {
+    backgroundColor: 'red',
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  button: {
+    marginTop: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    backgroundColor: 'black',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
 
-AppRegistry.registerComponent('Helloworld', () => Helloworld);
+AppRegistry.registerComponent('Helloworld', () => App);
